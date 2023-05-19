@@ -1,9 +1,68 @@
 # Group 4 - Clustering
 
+## Project goals
+
+TODO
+
 ## Members
 
-1. Koenig Ralf
-2. Lehmann Marcel
-3. Leidhold Clara
-4. Schmidt Sebastian
-5. Winkler Florian (group leader)
+- Ralf König
+- Marcel Lehmann
+- Clara Leidhold
+- Sebastian Schmidt
+- Florian Winkler (group leader)
+
+## Workflow
+
+:chestnut: In a nutshell:
+
+- Create an issue for each open task, make use of the template below
+- Look into the [Kanban board](https://github.com/orgs/fmi08icds/projects/4) to see which tasks are unassinged and in status *Todo*
+- Grab a task that you are able to accomplish, assign it to yourself and change the status to *Work in progress*
+- Create your own branch and push your commits to it
+- When you are done, create a Pull Request to merge your work into the main branch of the group
+- Group leader reviews your Pull Request and merges it
+- Change the status of your task to *Done* if the Pull Request has been successfully merged
+- Repeat until all tasks are done
+
+### Branches and Pull Requests
+
+The main branch of this group is called `group-4`. It is a protected branch such that no commits can be pushed to it directly. Instead a [Pull Request](https://github.com/fmi08icds/Groupwork/pulls) must be created and approved by the group leader, to merge a feature branch into the `group-4` branch. Besides that, there are no restrictions when creating feature branches. Make sure that everything is safe before creating the Pull Request.
+
+### Issues
+
+All work packages (tasks) are described as [Issues](https://github.com/fmi08icds/Groupwork/issues). When writing an Issue please consider the following:
+
+- Make sure that the workload is not too big. As a rule of thumb, a single person should be able to complete it in less than a week
+- Provide a short description of what needs to be done
+- Provide a list of Acceptance Criteria. These are requirements that need to be met to call the task done
+- Assign the Issue to the project "Group 4 - Clustering" and set the status to "Todo"
+- Do not assign the issue to anyone unless it is already known who is responsible for the task
+
+Here is a template with an example content:
+
+<details>
+
+<summary>Markdown Template for Issues</summary>
+
+``` md
+**Description:**
+
+Currently, our dataset mostly contains pictures of cats with dark fur.
+I observed that the classification accuracy suffers from this bias.
+We should add more samples to the dataset that show cats with different colored fur.
+
+**Acceptance criteria**:
+
+- 1000 samples were added to the dataset
+- It was assured that these new samples show cats with bright colored fur
+- The new samples are considered when creating the train/test split and executing `train.py`
+```
+
+</details>
+
+### Projects
+
+Issues are organized in a [Kanban board](https://github.com/orgs/fmi08icds/projects/4). The board consists of three columns that represent the statuses *Todo*, *Work in progress* and *Done*. The status can be changed by simply dragging the cards into another column.
+
+If you want to work on a task, look for unassigned issues in the *Todo* column. Read the description and acceptance criteria of the issue. If you feel like you are able to work on this task, assign it to yourself and change the status to *Work in progress*. In case the goal of the task is unclear, ask the creator of the issue for clarification. Once you have completed the task, congratulations, you can change the status to *Done* :+1:
