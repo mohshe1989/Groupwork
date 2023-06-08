@@ -10,4 +10,4 @@
 - Presentation (15min + 5min questions)
 
 ## Dataset
-[Data Science Salaries 2023](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)
+[Diabetes Prediction](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
