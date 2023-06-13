@@ -31,6 +31,9 @@ class SVM:
     def hyperplane(self, x_0):
         return -(self.weights[0] * x_0 + self.bias) / self.weights[1]
 
+
+# Some code to test the model
+# Does not behave as expected yet
 if __name__ == "__main__":
     # Dummy data
     X = np.array([[1, 1], [2, 1], [3, 2], [2, 3], [3, 3], [1, 3]])
