@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from model import SVM 
+from soft_margin_model import SVM 
 
 if __name__ == "__main__":
     # Load the data
